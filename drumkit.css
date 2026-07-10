@@ -1,6 +1,6 @@
 html {
     font-size: 10px;
-    background: './stage-background.png';
+    background: url('./stage-background.png') center;
     background-size: cover;
 }
 
@@ -20,8 +20,8 @@ html {
 
 .key {
     flex: 1;
-    border: 4rem solid black;
-    border-radius: 5rem;
+    border: .4rem solid black;
+    border-radius: .5rem;
     margin: 1rem;
     font-size: 1.5rem;
     padding: 1rem .5rem;
@@ -36,12 +36,12 @@ html {
 .playing {
     transform: scale(1.1);
     border-color: #ffc600;
-    box-shadow: 0 0 10px #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
 }
 
 kbd {
     display: block;
-    font-size: 40rem;
+    font-size: 4rem;
 }
 
 .sound {
